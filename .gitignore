@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+*.pdf
+*.png
+test_report*.md
+test_harness.sol
+node_modules/
