@@ -1,5 +1,7 @@
 # Solidity Audit Agent
 
+This does not replace regular auditing or make any claims about accuracy of findings. It is a agentic tool to help assist with secure smart contract development.
+
 Static analysis, fuzzing harness generation, and structured audit reporting for Solidity smart contracts. Embeds the vulnerability taxonomy and field knowledge from [Officer's Big Auditing Book](https://github.com/OffcierCia/tips-solidity-code-auditors) into runnable code.
 
 ## Quick Start
