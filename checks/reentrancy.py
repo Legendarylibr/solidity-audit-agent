@@ -36,7 +36,7 @@ def _find_functions(source: str):
                 depth -= 1
             pos += 1
         if depth == 0:
-            yield func_name, brace_open, pos
+            yield func_name, match.start(), pos
 
 
 class _ReentrancyGuardChecker:
